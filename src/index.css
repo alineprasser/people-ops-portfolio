@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -18,11 +18,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  /* --primary: oklch(0.21 0.006 285.885);
-  --accent: oklch(0.967 0.001 286.375); */
   --primary: #D2605E;
   --secondary: #E8A9A9;
-  /* --background: #FFF8F5; */
+  --background-secondary: #fdf7f5;
   --surface: #F4C7AB;
   --accent: #D9A074;
   --success: #A3B18A;
@@ -36,7 +34,6 @@
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.141 0.005 285.823);
   --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.967 0.001 286.375);
   --secondary-foreground: oklch(0.21 0.006 285.885);
   --muted: oklch(0.967 0.001 286.375);
   --muted-foreground: oklch(0.552 0.016 285.938);
@@ -91,6 +88,11 @@ h1 {
 }
 
 @theme inline {
+  --font-lora: "Lora", "serif"; 
+  --color-background-secondary: var(--background-secondary);
+  --color-surface: var(--surface);
+  --color-success: var(--success);
+  --color-text: var(--text);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
