@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { AboutSection } from "./AboutSection";
 import { StorySection } from "./StorySection";
 import { ExperienceSection } from "./ExperienceSection";
+import { ApproachSection } from "./ApproachSection";
 
 export default function LandingPage({
   onSectionChange,
@@ -42,6 +43,7 @@ export default function LandingPage({
       <AboutSection onContactClick={() => scrollToSection("contact")} />
       <StorySection />
       <ExperienceSection />
+      <ApproachSection />
     </div>
   );
 }

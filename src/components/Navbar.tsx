@@ -26,7 +26,7 @@ export default function Navbar({
             <button
               key={item.id}
               onClick={() => scrollToSection(item.id)}
-              className={`text-sm cursor-pointer transition-colors ${
+              className={`text-sm cursor-pointer transition-all duration-200 linear ${
                 activeSection === item.id
                   ? "text-primary font-medium"
                   : "text-stone-600 hover:text-stone-800"
