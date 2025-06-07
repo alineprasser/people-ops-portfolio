@@ -23,10 +23,10 @@ export default function ContactSection() {
               giovannaprassera@gmail.com
             </a>
             <a
-              href="tel:+5511999999999"
+              href="tel:+5527999961683"
               className="transition-colors flex gap-2 items-center">
               <PiDeviceMobile size={24} />
-              +55 11 99999-9999
+              +55 27 99996-1683
             </a>
           </div>
           <div className=" items-center justify-center flex flex-col gap-6">
