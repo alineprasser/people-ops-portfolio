@@ -10,7 +10,7 @@ export default function Container({
   return (
     <div
       className={cn(
-        "flex container mx-auto px-4 lg:px-20 xl:px-48",
+        "flex container mx-auto px-2 lg:px-20 xl:px-48",
         className
       )}>
       {children}

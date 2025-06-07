@@ -13,7 +13,7 @@ export function AboutSection({ onContactClick }: AboutSectionProps) {
       id="about"
       className="pt-24 pb-20 bg-background-secondary/50">
       <div className="max-w-5xl mx-auto px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center h-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-16 items-center h-full">
           <div className="flex flex-col gap-8">
             <div className="flex flex-col gap-6">
               <div className="inline-flex gap-2 items-center bg-accent text-surface px-4 py-2 rounded-full text-sm font-bold">
@@ -51,7 +51,7 @@ export function AboutSection({ onContactClick }: AboutSectionProps) {
               </div>
             </div>
 
-            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+            <div className="flex flex-row items-center gap-4">
               <Button
                 onClick={onContactClick}
                 className="bg-primary hover:bg-primary/80 text-white px-8 py-3 rounded-full">

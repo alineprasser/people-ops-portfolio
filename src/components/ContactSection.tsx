@@ -6,7 +6,7 @@ export default function ContactSection() {
   return (
     <section
       id="contact"
-      className="py-44 bg-gradient-to-br from-secondary to-primary">
+      className="py-24 sm:py-44 bg-gradient-to-br from-secondary to-primary">
       <div className="max-w-4xl mx-auto px-6 text-center">
         <div className="flex flex-col gap-8">
           <SectionHeader

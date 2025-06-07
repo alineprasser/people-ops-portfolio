@@ -32,11 +32,11 @@ export function ExperienceTimelineItem({
       <div className="flex flex-col gap-3">
         <div className="flex items-center justify-between">
           <h3 className="text-xl font-medium text-stone-800">{title}</h3>
-          <span className="text-sm text-surface bg-accent px-3 py-1 rounded-full">
+          <span className="text-xs sm:text-sm text-surface bg-accent px-3 py-1 rounded-full">
             {period}
           </span>
         </div>
-        <p className="flex gap-2 items-center text-primary font-medium">
+        <p className="flex flex-col sm:flex-row items-start  gap-0 sm:items-center sm:gap-2 text-primary font-medium">
           {company}
           <span className="text-secondary text-sm font-medium">{location}</span>
         </p>
