@@ -1,10 +1,11 @@
 import "./App.css";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="bg-black text-white">
-      <h1>Giovanna Prasser</h1>
-    </div>
+    <main className="min-h-screen w-screen flex flex-col">
+      <Navbar />
+    </main>
   );
 }
 
