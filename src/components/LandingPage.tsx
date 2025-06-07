@@ -3,6 +3,7 @@ import { AboutSection } from "./AboutSection";
 import { StorySection } from "./StorySection";
 import { ExperienceSection } from "./ExperienceSection";
 import { ApproachSection } from "./ApproachSection";
+import { TestimonialSection } from "./TestimonialSection";
 import ContactSection from "./ContactSection";
 
 export default function LandingPage({
@@ -45,6 +46,7 @@ export default function LandingPage({
       <StorySection />
       <ExperienceSection />
       <ApproachSection />
+      <TestimonialSection />
       <ContactSection />
     </div>
   );
