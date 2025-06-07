@@ -6,16 +6,19 @@ export default function ContactSection() {
   return (
     <section
       id="contact"
-      className="py-20 bg-gradient-to-br from-background-secondary to-primary/40">
+      className="py-44 bg-gradient-to-br from-secondary to-primary">
       <div className="max-w-4xl mx-auto px-6 text-center">
         <div className="flex flex-col gap-8">
-          <SectionHeader title="Let's grab coffee (virtual or real!) ☕" />
-          <p className="text-lg text-stone-600 leading-relaxed max-w-2xl mx-auto">
+          <SectionHeader
+            title="Let's catch up soon — virtually or in person! 🔗"
+            className="text-accent"
+          />
+          <p className="text-lg text-accent leading-relaxed max-w-2xl mx-auto">
             Whether you're dealing with growing pains, culture challenges, or
             just want to chat about the future of work—I'd love to hear from
             you. No sales pitch, just good conversation.
           </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
+          <div className="flex flex-col sm:flex-row text-accent items-center justify-center gap-6">
             <a
               href="mailto:giovannaprassera@gmail.com"
               className="transition-colors flex gap-2 items-center">

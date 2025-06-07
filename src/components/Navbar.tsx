@@ -1,3 +1,4 @@
+import { cn } from "@/lib/utils";
 import Container from "./Container";
 import { Button } from "./ui/button";
 
@@ -21,17 +22,24 @@ export default function Navbar({
         <h2 className="text-lg font-semibold text-stone-800">
           Giovanna Prasser
         </h2>
-        <div className="hidden md:flex items-center space-x-8">
+        <div className="hidden md:flex items-center gap-8">
           {sections.map((item) => (
             <button
               key={item.id}
               onClick={() => scrollToSection(item.id)}
               className={`text-sm cursor-pointer transition-all duration-200 linear ${
                 activeSection === item.id
-                  ? "text-primary font-medium"
+                  ? "text-primary"
                   : "text-stone-600 hover:text-stone-800"
               }`}>
-              {item.label}
+              <span className="relative space-y-1">
+                {item.label}
+                <span
+                  className={cn(
+                    "absolute bottom-1 left-0 w-0 h-[2px] bg-primary blur-sm rounded-full transition-all delay-300 duration-500 linear",
+                    activeSection === item.id && "w-full"
+                  )}></span>
+              </span>
             </button>
           ))}
         </div>

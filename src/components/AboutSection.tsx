@@ -13,10 +13,10 @@ export function AboutSection({ onContactClick }: AboutSectionProps) {
       id="about"
       className="pt-24 pb-20 bg-background-secondary/50">
       <div className="max-w-5xl mx-auto px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center h-full">
           <div className="flex flex-col gap-8">
             <div className="flex flex-col gap-6">
-              <div className="inline-flex gap-2 items-center bg-secondary/20 text-primary px-4 py-2 rounded-full text-sm font-bold">
+              <div className="inline-flex gap-2 items-center bg-accent text-surface px-4 py-2 rounded-full text-sm font-bold">
                 <PiHeartBold size={16} />
                 Available for new projects
               </div>
@@ -32,7 +32,7 @@ export function AboutSection({ onContactClick }: AboutSectionProps) {
                   people—building cultures where everyone can thrive, creating
                   systems that actually work, and turning HR from a necessary
                   evil into a{" "}
-                  <span className="italic font-medium font-lora text-primary">
+                  <span className="italic font-bold font-lora text-secondary">
                     strategic superpower
                   </span>
                   .
@@ -80,7 +80,7 @@ export function AboutSection({ onContactClick }: AboutSectionProps) {
             <div className="absolute -bottom-4 -right-4 bg-white rounded-2xl p-4 shadow-lg border border-stone-200">
               <div className="flex text-primary items-center space-x-2 text-sm">
                 <PiUsers size={16} />
-                <span className="text-stone-600">+100 people impacted</span>
+                <span className="text-stone-500">+100 people impacted</span>
               </div>
             </div>
           </div>
