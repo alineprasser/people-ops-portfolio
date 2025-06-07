@@ -11,6 +11,7 @@ function App() {
     { id: "story", label: "My Story" },
     { id: "experience", label: "Journey" },
     { id: "approach", label: "How I Help" },
+    { id: "testimonials", label: "Testimonials" },
     { id: "contact", label: "Let's Chat" },
   ];
 
