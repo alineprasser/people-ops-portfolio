@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import LandingPage from "./components/LandingPage";
+import Footer from "./components/Footer";
 
 function App() {
   const [activeSection, setActiveSection] = useState("about");
@@ -10,7 +11,6 @@ function App() {
     { id: "story", label: "My Story" },
     { id: "experience", label: "Journey" },
     { id: "approach", label: "How I Help" },
-    { id: "work", label: "Recent Work" },
     { id: "contact", label: "Let's Chat" },
   ];
 
@@ -24,6 +24,7 @@ function App() {
         onSectionChange={setActiveSection}
         sections={sections}
       />
+      <Footer />
     </main>
   );
 }
