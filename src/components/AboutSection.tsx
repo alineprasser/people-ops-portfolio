@@ -23,15 +23,19 @@ export function AboutSection({ onContactClick }: AboutSectionProps) {
               <div className="flex flex-col gap-2">
                 <h1 className="text-4xl lg:text-5xl font-light text-stone-800 leading-tight">
                   Hi, I'm Giovanna! 👋
-                  <span className="block text-3xl font-lora lg:text-2xl text-stone-500 mt-2">
+                  <span className="block text-3xl lg:text-2xl text-stone-500 mt-2">
                     I help teams become their best selves
                   </span>
                 </h1>
                 <p className="text-lg text-stone-600 leading-relaxed">
-                  For the past 10 years, I've been the person behind the
+                  For the past 4 years, I've been the person behind the
                   people—building cultures where everyone can thrive, creating
                   systems that actually work, and turning HR from a necessary
-                  evil into a strategic superpower.
+                  evil into a{" "}
+                  <span className="italic font-medium font-lora text-primary">
+                    strategic superpower
+                  </span>
+                  .
                 </p>
               </div>
             </div>
@@ -76,7 +80,7 @@ export function AboutSection({ onContactClick }: AboutSectionProps) {
             <div className="absolute -bottom-4 -right-4 bg-white rounded-2xl p-4 shadow-lg border border-stone-200">
               <div className="flex text-primary items-center space-x-2 text-sm">
                 <PiUsers size={16} />
-                <span className="text-stone-600">+500 people impacted</span>
+                <span className="text-stone-600">+100 people impacted</span>
               </div>
             </div>
           </div>
