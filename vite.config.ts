@@ -18,7 +18,7 @@ export default defineConfig({
           keywords: 'People Operations, HR, Talent Management, Organizational Development, Human Resources, HR Portfolio, People Ops',
           author: 'Giovanna Prasser',
           ogImage: '/android-chrome-512x512.png', 
-          url: 'http://localhost:5173/',
+          url: 'https://giovanna-prasser.vercel.app/',
         },
       },
     }),
