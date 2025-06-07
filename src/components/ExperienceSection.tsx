@@ -1,4 +1,5 @@
 import { ExperienceTimelineItem } from "./ExperienceTimelineItem";
+import { SectionHeader } from "./SectionHeader";
 
 const experiences = [
   {
@@ -36,13 +37,10 @@ export function ExperienceSection() {
       <div className="max-w-5xl mx-auto px-6">
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
           <div className="lg:col-span-1">
-            <h2 className="text-3xl font-light text-stone-800 mb-6">
-              My journey so far
-            </h2>
-            <p className="text-stone-600 leading-relaxed">
-              From startup chaos to enterprise scale—I've been there, done that,
-              and learned a lot along the way.
-            </p>
+            <SectionHeader
+              title="My journey so far"
+              description="From startup chaos to enterprise scale—I've been there, done that, and learned a lot along the way."
+            />
           </div>
 
           <div className="lg:col-span-2 flex flex-col gap-8">
