@@ -113,9 +113,9 @@ export function AboutSection({ onContactClick }: AboutSectionProps) {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}>
-            <div className="aspect-square relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary/50 to-secondary/50 p-8">
+            <div className="aspect-square relative overflow-hidden rounded-xl bg-primary p-1">
               <img
-                src="/placeholder.svg?height=400&width=400"
+                src="/giovanna.png"
                 alt="Giovanna Prasser - People Operations Consultant"
                 className="object-cover rounded-2xl"
               />
@@ -132,7 +132,7 @@ export function AboutSection({ onContactClick }: AboutSectionProps) {
               }}>
               <div className="flex text-primary items-center space-x-2 text-sm">
                 <PiUsers size={16} />
-                <span className="text-stone-500">+100 people impacted</span>
+                <span className="text-stone-500">+200 people impacted</span>
               </div>
             </motion.div>
           </motion.div>
